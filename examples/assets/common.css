@@ -1,0 +1,43 @@
+html,body{
+    height: 100%;
+}
+body,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft YaHei UI";
+    font-size: 14px;
+    color: #333;
+}
+ul,li{
+    list-style: none;
+}
+hr{
+    border-top: 1px solid #fdfdfd;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 30px;
+}
+pre {
+    margin: 16px 0;
+    padding: 16px;
+    background-color: #f7f7f7;
+    overflow: auto;
+}
+code {
+    font-family: Consolas,Menlo,Courier,monospace;
+}
+a {
+    color: #429446;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    line-height: 26px;
+}
+h3 {
+    margin-top: 20px;
+}
