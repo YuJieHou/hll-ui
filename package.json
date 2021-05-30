@@ -1,15 +1,18 @@
 {
   "name": "hll-ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "组件库",
+  "keyword": "hll hll-ui",
   "private": false,
-  "main": "./dist/hull-ui.common.js",
+  "main": "lib/hull-ui.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "lib": "vue-cli-service build --target lib --name hll-ui --dest lib ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

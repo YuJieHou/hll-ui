@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      loaded: false,
-      show: true
+    data() {
+        return {
+            loaded: false,
+            show: true
+        }
     }
-  }
 }
 </script>
